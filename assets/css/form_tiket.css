@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 1px;
+  margin: 0px 240px 0px 240px;
+  width: 60%;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 2px solid #000;
+  border-radius: 0.25rem;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #ffffff;
+}
+
+.form-control:disabled,
+.form-control {
+  background-color: #ffffff;
+}
+@media (max-width: 1440px) {
+  .card {
+    margin: 0px 225px 0px 225px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin: 0px;
+    width: 70%;
+  }
+}
