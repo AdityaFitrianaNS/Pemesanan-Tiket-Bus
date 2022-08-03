@@ -15,8 +15,8 @@
   
 Jika menggunakan github : 
 - Masuk ke repositori github
-- Pilih button code
-- Pada dropdown, pilih download zip
+- Pilih button `code`
+- Pada dropdown, pilih `download zip`
 - Setelah terdownload, extract file kedalam folder `htdocs`
 - Setelah di extract, buat database pada phpmyadmin, dengan nama **db_tiket_bus**
 - Masuk ke database **db_tiket_bus**
@@ -25,22 +25,23 @@ Jika menggunakan github :
 - Scroll kebawah ada button import, klik `import`
 - Tunggu proses import file sql
 - Jika berhasil, maka akan ada tabel bernama **tb_pemesanan_tiket** dan data yang sudah di import untuk **db_tiket_bus**.
+- Silahkan coba sesuai dengan penempatan file di folder local masing-masing device
 
 ### Teknologi yang dipakai
 
-Aplikasi :
-- XAMPP (Untuk mengaktifkan localhost)
-
-Code Editor :
-- Visual Studio Code
-  
-Teknologi yang digunakan :
 - HTML5
 - CSS3
+- Bootstrap 5.1
 - Javascript
 - PHP8
 - MySQL 
 - Sweetalert 2 (Library)
+
+Localhost :
+- XAMPP (Untuk mengaktifkan localhost)
+
+Code Editor :
+- Visual Studio Code
 
 ## Kegunaan Folder
 - Folder assets

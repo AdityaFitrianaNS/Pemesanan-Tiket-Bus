@@ -49,7 +49,6 @@ $tanggal_berangkat = new DateTime($query['tanggal_keberangkatan']);
     <br><br>
     <div class="container-lg mt-4">
         <div class="card">
-
             <div class="row ms-5 me-0">
                 <h3 class="mb-4 mt-3 text-center">Invoice Pemesanan Tiket</h3>
                 <label for="nama" class="col-sm-6 col-form-label">Nama Lengkap</label>
