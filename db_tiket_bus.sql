@@ -15,8 +15,7 @@ CREATE TABLE `tb_pemesanan_tiket` (
   `total_bayar` int(16) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO `tb_pemesanan_tiket` (`id_pemesan`, `nama`, `nomer_identitas`, `no_hp`, `kelas_penumpang`, `tanggal_keberangkatan`, `jumlah_penumpang`, `jumlah_penumpang_lansia`, `harga_tiket`, `total_bayar`) VALUES
-(1, 'Fitri', 2147483647, 2147483647, 'Ekonomi', '2022-07-20', 10, 10, 50000, 950000);
+INSERT INTO `tb_pemesanan_tiket` (`id_pemesan`, `nama`, `nomer_identitas`, `no_hp`, `kelas_penumpang`, `tanggal_keberangkatan`, `jumlah_penumpang`, `jumlah_penumpang_lansia`, `harga_tiket`, `total_bayar`);
 
 ALTER TABLE `tb_pemesanan_tiket`
   ADD PRIMARY KEY (`id_pemesan`);

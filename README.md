@@ -9,7 +9,7 @@
 - Pemesanan Tiket
   Untuk memesan tiket keberangkatan menggunakan bus.
 - Invoice
-  Bukti pembayaran setelah pemesanan tiket.
+  Bukti pembayaran setelah pemesanan tiket. ( Untuk invoice wajib memesan tiket terlebih dahulu )
 
 ## Cara Penggunaan
   
