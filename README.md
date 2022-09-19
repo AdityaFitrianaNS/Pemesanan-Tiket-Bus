@@ -41,6 +41,7 @@ Teknologi yang digunakan :
 - HTML5
 - CSS3
 - Javascript
+- Jquery
 - PHP8
 - MySQL 
 - Sweetalert 2 (Library)
